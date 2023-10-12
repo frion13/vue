@@ -18,7 +18,7 @@
 <script>
 
 export default {
-  name: 'header-component',
+  name: 'HeaderComponent',
 }
 
 </script>
