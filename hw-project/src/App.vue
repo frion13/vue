@@ -1,7 +1,10 @@
 <template>
+  <ProjectComponent/>
   <BlogDetails/>
   <FirstPage/>
   <BlogContent/>
+  
+  
 
   
 </template>
@@ -10,6 +13,8 @@
 import BlogDetails from './components/hw3.vue'
 import FirstPage from './components/hw1.vue'
 import BlogContent from './components/hw2.vue'
+import ProjectComponent from './components/hw4.vue'
+
 import '@/assets/style/style.scss';
 
 
@@ -17,7 +22,8 @@ import '@/assets/style/style.scss';
 export default {
   name: 'App',
   components: {
-  BlogDetails, FirstPage, BlogContent
+  BlogDetails, FirstPage, BlogContent, ProjectComponent,
+
   }
 }
 </script>
